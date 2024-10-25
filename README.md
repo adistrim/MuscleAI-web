@@ -1,5 +1,5 @@
 # MuscleAI-web
-Codebase for the MuscleAI website (`AI Posture Coach`)
+Codebase for the MuscleAI website (`AI Posture Coach`) - Aligno
 
 ## Installation
 
