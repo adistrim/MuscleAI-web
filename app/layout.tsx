@@ -5,8 +5,8 @@ import { ModeToggle } from "@/components/mode-toggle"
 import { Footer } from "@/components/footer"
 
 export const metadata = {
-  title: "JIM - Just In Motion",
-  description: "Professional fitness analysis and form correction platform",
+  title: "Aligno - Your AI Posture Coach",
+  description: "Real-time workout form analysis and posture correction powered by AI",
 }
 
 export default function RootLayout({

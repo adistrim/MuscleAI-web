@@ -1,5 +1,5 @@
 import { Separator } from "@/components/ui/separator"
-import { Dumbbell } from "lucide-react"
+import { Activity } from "lucide-react"
 import { FC } from "react"
 import DeveloperCard from "./developer-card"
 import { developers } from "@/data/dev"
@@ -12,8 +12,8 @@ export const Footer: FC = () => {
       <div className="container py-8 md:py-12">
         <div className="flex flex-col items-center space-y-8">
           <div className="flex items-center space-x-2 text-primary">
-            <Dumbbell className="h-6 w-6" />
-            <span className="text-xl font-semibold">JIM</span>
+            <Activity className="h-8 w-8" />
+            <span className="text-2xl font-semibold">Aligno</span>
           </div>
           
           <div className="flex flex-wrap justify-center gap-6 w-full max-w-2xl">
@@ -33,7 +33,7 @@ export const Footer: FC = () => {
               Built with modern web technologies
             </p>
             <p className="text-sm text-muted-foreground">
-              © {currentYear} JIM. All rights reserved.
+              © {currentYear} Aligno. All rights reserved.
             </p>
           </div>
         </div>
